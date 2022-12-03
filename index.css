@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+  font: 1em Roboto;
+  color: white;
+  text-align: center;
+}
+
+.naslov {
+  color: white;
+  background-image: url("https://unsplash.it/4000/400");
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-radius: 15px;
+}
+
+.naslov h1 {
+  margin: auto;
+  font-size: 64px;
+  text-shadow: 0 0 3px #000000, 0 0 5px #134cf7;
+}
+
+.section {
+  font-size: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+hr {
+  width: 75%;
+  margin-top: 20px;
+  margin-bottom:20px;
+  color: #134cf7;
+}
+
+#contacts {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+    text-decoration: none;
+    color: #134cf7;
+}
+
+a:visited {
+    text-decoration: dotted;
+    color: #134cf7;
+}
+
+a:hover {
+    color: #1e2877;
+}
