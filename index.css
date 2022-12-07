@@ -1,20 +1,12 @@
+:root {
+  --barva: #13bc03;
+}
+
 body {
   background-color: #212121;
   font: 1em Roboto;
   color: white;
   text-align: center;
-}
-
-.naslov {
-  color: white;
-  /* background-image: url("assets/bg.jpg"); */
-  /* filter: blur(10px); */
-  height: 400px;
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  /* border-radius: 15px; */
 }
 
 .background {
@@ -27,10 +19,18 @@ body {
   filter: blur(5px);
 }
 
+.kontejner   {
+  max-width: 900px;
+  background-color: rgb(60, 60, 60, 0.4);
+  margin: 0 auto;
+  backdrop-filter: blur(10px);
+  padding: 10px;
+}
+
 .naslov h1 {
   margin: auto;
   font-size: 64px;
-  text-shadow: 0 0 3px #000000, 0 0 5px #134cf7;
+  text-shadow: 0 0 3px #000000, 0 0 5px var(--barva);
 }
 
 .section {
@@ -59,17 +59,16 @@ ul {
 
 a:link {
     text-decoration: none;
-    color: #134cf7;
+    color: var(--barva);
 }
 
 a:visited {
     text-decoration: dotted;
-    color: #134cf7;
+    color: var(--barva);
 }
 
 a:hover {
-    color: #1e2877;
-    text-shadow: 3px 3px 3px #000000;
+    color: #0c8c01;
 }
 
 .linkimg {
