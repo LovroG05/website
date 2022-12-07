@@ -1,10 +1,10 @@
 :root {
-  --barva: #13bc03;
+  --barva: #82d6a1;
 }
 
 body {
   background-color: #212121;
-  font: 1em Roboto;
+  font: 1em "Jetbrains Mono";
   color: white;
   text-align: center;
 }
@@ -43,7 +43,6 @@ hr {
   width: 75%;
   margin-top: 20px;
   margin-bottom:20px;
-  color: #134cf7;
 }
 
 #contacts {
@@ -77,4 +76,8 @@ a:hover {
 
 .linkimg:hover {
   box-shadow: 3px 3px 3px #000000;
+}
+
+h1 {
+  font-size: 48px;
 }
