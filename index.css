@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #212121;
+  background-color: #264563;
   font: 1em "Jetbrains Mono";
   color: white;
   text-align: center;
@@ -25,6 +25,7 @@ body {
   margin: 0 auto;
   backdrop-filter: blur(10px);
   padding: 10px;
+  border-radius: 15px;
 }
 
 .naslov h1 {
