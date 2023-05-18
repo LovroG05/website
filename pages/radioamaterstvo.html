@@ -9,6 +9,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains+Mono">
     <link rel="stylesheet" href="../index.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../scripts/sotadatafetch.js"></script>
   </head>
 
   <body > <!-- background="assets/bg.jpg" -->
@@ -26,7 +28,19 @@
         </p>
       </div>
       <hr />
-      <div>
+      <div class="section">
+        <h3>SOTA</h3>
+        <table id="points">
+          <tr>
+            <th>Aktivacijske točke</th>
+          </tr>
+          <tr>
+            <td id="ap">0</td>
+          </tr>
+        </table>
+      </div>
+      <hr />
+      <div class="section">
         <a href="https://www.qrz.com/db/S50LO">Moja QRZ stran</a>
       </div>
       <hr />
