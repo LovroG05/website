@@ -2,14 +2,22 @@
   --barva: #82d6a1;
 }
 
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
   background-color: #264563;
+  height: 100%;
   font: 1em "Jetbrains Mono";
   color: white;
   text-align: center;
+  margin: 0px;
+  padding-top: 0px;
 }
 
-.background {
+/* .background {
   position: absolute;
   left: 0px;
   right: 0px;
@@ -17,15 +25,16 @@ body {
   width: 100%;
   z-index: -1;
   filter: blur(5px);
-}
+} */
 
-.kontejner   {
+.kontejner {
   max-width: 900px;
   background-color: rgb(60, 60, 60, 0.4);
-  margin: 0 auto;
   backdrop-filter: blur(10px);
+  margin: 0px auto;
   padding: 10px;
   border-radius: 15px;
+  /* margin-top: 50px; */
 }
 
 .naslov h1 {
@@ -43,7 +52,7 @@ body {
 hr {
   width: 75%;
   margin-top: 20px;
-  margin-bottom:20px;
+  margin-bottom: 20px;
 }
 
 #contacts {
@@ -58,17 +67,17 @@ ul {
 }
 
 a:link {
-    text-decoration: none;
-    color: var(--barva);
+  text-decoration: none;
+  color: var(--barva);
 }
 
 a:visited {
-    text-decoration: dotted;
-    color: var(--barva);
+  text-decoration: dotted;
+  color: var(--barva);
 }
 
 a:hover {
-    color: #0c8c01;
+  color: #0c8c01;
 }
 
 .linkimg {
