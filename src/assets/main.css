@@ -1,0 +1,29 @@
+@import './base.css';
+
+#app {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-weight: normal;
+}
+
+a,
+.green {
+  text-decoration: none;
+  color: var(--link);
+  transition: 0.4s;
+  padding: 10px;
+}
+
+hr {
+  width: 75%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
