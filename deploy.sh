@@ -6,7 +6,6 @@ set -e
 # build
 npm run build
 
-cp src/assets/* dist/assets
 
 # navigate into the build output directory
 cd dist

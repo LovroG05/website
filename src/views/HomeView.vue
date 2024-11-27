@@ -24,12 +24,12 @@ import ProjectComponent from '../components/ProjectComponent.vue';
       <hr>
       <ProjectComponent
         ime="Šah"
-        icon="..\assets\icons8-chess-128.png"
+        icon="/icons8-chess-128.png"
         opis="Zaledni strežnik za preverjanje pravil pri šahu, napisan kot seminarska naloga. Uporabniški vmesnik je LovroG05/chessboard-seminarska."
         url="https://github.com/LovroG05/chess-seminarska" />
       <ProjectComponent
         ime="Hamlog"
-        icon="../assets/hamlog.png"
+        icon="/hamlog.png"
         opis="Informacijski sistem radioamaterskega dnevnika zvez, napisan za maturitetno nalogo pri računalništvu. Uporabniški vmesnik je napisan v ogrodju Flutter, zaledni strežnik pa v Spring boot-u."
         url="https://github.com/LovroG05/hamlog" />
       <ProjectComponent

@@ -3,14 +3,14 @@
     <a href="https://github.com/LovroG05"
           ><img
             class="linkimg"
-            src="../assets/GitHub-Mark-Light-120px-plus.png"
+            src="/GitHub-Mark-Light-120px-plus.png"
             width="48px"
             height="48px"
         /></a>
         <a href="https://gitlab.com/LovroG05"
           ><img
             class="linkimg"
-            src="../assets/gitlab-logo-500.png"
+            src="/gitlab-logo-500.png"
             width="48px"
             height="48px"
         /></a>
